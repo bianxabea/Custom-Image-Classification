@@ -64,7 +64,7 @@
 
    **1. What signs indicated overfitting in your first model?**
 
-      Signs of overfitting in my first model included very high training accuracy but much lower validation accuracy, along with validation loss increasing while training loss continued to decrease. This indicated that the model was             memorizing the training images instead of learning patterns that generalize to new data.
+  Signs of overfitting in my first model included very high training accuracy but much lower validation accuracy, along with validation loss increasing while training loss continued to decrease. This indicated that the model was             memorizing the training images instead of learning patterns that generalize to new data.
 
 **2. How did data augmentation affect validation accuracy?**
 
