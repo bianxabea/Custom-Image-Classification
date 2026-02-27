@@ -60,7 +60,7 @@
 
 ## **Guide Questions (Student Explanation & Reflection)**
 
-### **Visualization & Overfitting**
+- ### **Visualization & Overfitting**
 
 **1. What signs indicated overfitting in your first model?**
 
@@ -70,7 +70,7 @@ Signs of overfitting in my first model included very high training accuracy but 
 
 Data augmentation improved validation accuracy by increasing the diversity of the training images, such as through rotations, flips, and zooms. This helped the model generalize better to unseen images, reducing overfitting and making the predictions on the validation set more reliable.
 
-### **Model Improvement**
+- ### **Model Improvement**
 
 **3. What is the purpose of dropout layers?**
 
@@ -80,7 +80,7 @@ The purpose of dropout layers is to prevent overfitting by randomly “dropping 
 
 Data augmentation improves generalization by artificially increasing the variety of training images through transformations like rotation, flipping, and zooming. This exposes the model to different scenarios and variations of the same class, helping it recognize patterns in unseen data and perform better on real-world images.
 
-### **Performance Comparison**
+- ### **Performance Comparison**
 
 **5. Compare accuracy before and after improvements.**
 
@@ -90,7 +90,7 @@ Before improvements, the model had lower validation accuracy due to overfitting 
 
 The technique that contributed most to improvement was data augmentation, as it expanded the variety of training images, allowing the model to learn more robust features and reduce overfitting.
 
-### **Deployment & Application**
+- ### **Deployment & Application**
 
 **7. Why is saving the model important?**
 
