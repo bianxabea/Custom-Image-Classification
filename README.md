@@ -1,6 +1,6 @@
 # Custom-Image-Classification
 
-## **Google Colab Link:** [https://drive.google.com/drive/folders/1NLwi5wRmBvFIW9PdupqGWWlu0pQ_y2Pr?usp=sharing]
+## **Google Colab Link:** https://colab.research.google.com/drive/1Hu1OM8OA4_WFLJhSYfXmFg12FiKzGMdf?usp=sharing
 
 ## **ACTIVITY 3**
 
