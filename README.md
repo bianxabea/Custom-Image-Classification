@@ -66,36 +66,37 @@
 
   Signs of overfitting in my first model included very high training accuracy but much lower validation accuracy, along with validation loss increasing while training loss continued to decrease. This indicated that the model was             memorizing the training images instead of learning patterns that generalize to new data.
 
-**2. How did data augmentation affect validation accuracy?**
+   **2. How did data augmentation affect validation accuracy?**
 
-Data augmentation improved validation accuracy by increasing the diversity of the training images, such as through rotations, flips, and zooms. This helped the model generalize better to unseen images, reducing overfitting and making the predictions on the validation set more reliable.
+   Data augmentation improved validation accuracy by increasing the diversity of the training images, such as through rotations, flips, and zooms. This helped the model generalize better to unseen images, reducing overfitting and making      the predictions on the validation set more reliable.
 
 - ### **Model Improvement**
 
-**3. What is the purpose of dropout layers?**
+   **3. What is the purpose of dropout layers?**
 
-The purpose of dropout layers is to prevent overfitting by randomly “dropping out” a fraction of neurons during training. This forces the model to learn redundant and robust features instead of relying too heavily on specific neurons, improving its ability to generalize to new data.
+  The purpose of dropout layers is to prevent overfitting by randomly “dropping out” a fraction of neurons during training. This forces the model to learn redundant and robust features instead of relying too heavily on specific neurons,
+  improving its ability to generalize to new data.
    
-**4. Why does data augmentation improve generalization?**
+   **4. Why does data augmentation improve generalization?**
 
-Data augmentation improves generalization by artificially increasing the variety of training images through transformations like rotation, flipping, and zooming. This exposes the model to different scenarios and variations of the same class, helping it recognize patterns in unseen data and perform better on real-world images.
+   Data augmentation improves generalization by artificially increasing the variety of training images through transformations like rotation, flipping, and zooming. This exposes the model to different scenarios and variations of the same     class, helping it recognize patterns in unseen data and perform better on real-world images.
 
 - ### **Performance Comparison**
 
-**5. Compare accuracy before and after improvements.**
+   **5. Compare accuracy before and after improvements.**
 
-Before improvements, the model had lower validation accuracy due to overfitting and limited training data. After applying techniques like data augmentation and dropout layers, the accuracy significantly increased, showing better generalization to unseen images.
+   Before improvements, the model had lower validation accuracy due to overfitting and limited training data. After applying techniques like data augmentation and dropout layers, the accuracy significantly increased, showing better           generalization to unseen images.
 
-**6. Which technique contributed most to improvement?**
+   **6. Which technique contributed most to improvement?**
 
-The technique that contributed most to improvement was data augmentation, as it expanded the variety of training images, allowing the model to learn more robust features and reduce overfitting.
+   The technique that contributed most to improvement was data augmentation, as it expanded the variety of training images, allowing the model to learn more robust features and reduce overfitting.
 
 - ### **Deployment & Application**
 
-**7. Why is saving the model important?**
+   **7. Why is saving the model important?**
 
-Saving the model is important because it allows you to reuse the trained model without retraining, share it with others, and deploy it in applications like mobile apps or web systems, saving time and computing resources.
+   Saving the model is important because it allows you to reuse the trained model without retraining, share it with others, and deploy it in applications like mobile apps or web systems, saving time and computing resources.
   
-**8. How can this model be deployed in a real-world system?**
+   **8. How can this model be deployed in a real-world system?**
 
-This model can be deployed in a real-world system by exporting it (e.g., TensorFlow Lite for mobile or a web-compatible format for browsers) and integrating it into an app or website. Users can then upload or capture images, and the system will provide instant plant classification, making it practical for agriculture, herbal research, or educational tools.
+   This model can be deployed in a real-world system by exporting it (e.g., TensorFlow Lite for mobile or a web-compatible format for browsers) and integrating it into an app or website. Users can then upload or capture images, and the       system will provide instant plant classification, making it practical for agriculture, herbal research, or educational tools.
